@@ -67,3 +67,18 @@ CodePipeline fetches the latest commit and automatically deploys to the test env
 Manual Approval for Production:
 
 After validating the test environment, manually approve the deployment to production.
+
+
+Screenshots
+
+See screenshots provided in the repository:
+
+Application Setup
+
+Environment Overview
+
+CI/CD Pipeline Overview
+
+Test Environment
+
+Production Environmen
