@@ -58,3 +58,17 @@ AWS-Nodejs-Beanstalk-App
 ## 🛠 Deployment Workflow
 
 1. **Commit Changes:** Push code changes to GitHub
+
+📸 Screenshots
+
+Check screenshots in the repository illustrating:
+
+Application setup
+
+Environments
+
+CI/CD Pipeline
+
+Test Environment
+
+Production Environment
