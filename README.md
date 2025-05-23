@@ -14,13 +14,14 @@ CI/CD Tool: AWS CodePipeline
 
 Source Control: GitHub
 
-Repository Structure
+Repository Structure:
+
 
 AWS-Nodejs-Beanstalk-App
 ├── app
 │   ├── index.html
 │   └── package.json
-└── buildspec.yml
+└── Pictures
 
 Features
 
@@ -30,19 +31,15 @@ Separate test and production environments.
 
 Manual approval step before production deployment.
 
-AWS Components
+AWS Components:
 
 Elastic Beanstalk
 
 Test Environment:
 
-URL: http://myapp-env-test.eba-xxxxx.us-east-1.elasticbeanstalk.com
-
 Node.js version: 18.x
 
 Production Environment:
-
-URL: http://myapp-env-prod.eba-xxxxx.us-east-1.elasticbeanstalk.com
 
 Node.js version: 18.x
 
@@ -69,7 +66,7 @@ Manual Approval for Production:
 After validating the test environment, manually approve the deployment to production.
 
 
-Screenshots
+Screenshots:
 
 See screenshots provided in the repository:
 
