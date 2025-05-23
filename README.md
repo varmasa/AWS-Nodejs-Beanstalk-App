@@ -1,81 +1,60 @@
-AWS Node.js Application with Elastic Beanstalk and CI/CD Pipeline
+# AWS Node.js Application with Elastic Beanstalk and CI/CD Pipeline
 
-This repository contains an AWS Elastic Beanstalk Node.js application deployed using AWS CodePipeline for continuous integration and continuous deployment (CI/CD). It demonstrates deploying two environments: a test environment and a production environment.
+This repository contains a Node.js application deployed using AWS Elastic Beanstalk, integrated with AWS CodePipeline for continuous integration and deployment (CI/CD). It showcases separate **test** and **production** environments, automated deployment processes, and manual approval steps.
 
-Project Overview
+---
 
-Application Name: MyApp
+## 📌 Project Overview
 
-Platform: Node.js 18
+* **Application Name:** `MyApp`
+* **Platform:** Node.js 18
+* **Deployment:** AWS Elastic Beanstalk
+* **CI/CD Tool:** AWS CodePipeline
+* **Source Control:** GitHub
 
-Deployment Method: AWS Elastic Beanstalk
+---
 
-CI/CD Tool: AWS CodePipeline
+## 📁 Repository Structure
 
-Source Control: GitHub
-
-Repository Structure:
-
-
+```
 AWS-Nodejs-Beanstalk-App
 ├── app
 │   ├── index.html
 │   └── package.json
 └── Pictures
+```
 
-Features
+---
 
-Automated deployment using AWS CodePipeline.
+## 🚀 Features
 
-Separate test and production environments.
+* ✅ Automated CI/CD via AWS CodePipeline.
+* ✅ Separate test and production environments.
+* ✅ Manual approval required before deploying to production.
 
-Manual approval step before production deployment.
+---
 
-AWS Components:
+## ⚙️ AWS Components
 
-Elastic Beanstalk
+### 🌿 Elastic Beanstalk
 
-Test Environment:
+* **Test Environment:**
 
-Node.js version: 18.x
+  * Node.js version: 18.x
 
-Production Environment:
+* **Production Environment:**
 
-Node.js version: 18.x
+  * Node.js version: 18.x
 
-CodePipeline
+### 🔄 CodePipeline
 
-Pipeline name: My-CICD
+* Pipeline name: `My-CICD`
+* Linked to GitHub repository.
+* Automatic deployment to test on each commit.
+* Manual approval step for deploying to production.
 
-Source stage linked to GitHub.
+---
 
-Automatic deployment to test environment upon new commits.
+## 🛠 Deployment Workflow
 
-Manual approval step for deployment to production.
-
-Deployment Workflow
-
-Code Commit: Commit changes to the GitHub repository.
-
-Automatic Deployment to Test:
-
-CodePipeline fetches the latest commit and automatically deploys to the test environment.
-
-Manual Approval for Production:
-
-After validating the test environment, manually approve the deployment to production.
-
-
-Screenshots:
-
-See screenshots provided in the repository:
-
-Application Setup
-
-Environment Overview
-
-CI/CD Pipeline Overview
-
-Test Environment
-
-Production Environmen
+1. **Commit Changes:** Push code changes to GitHub
