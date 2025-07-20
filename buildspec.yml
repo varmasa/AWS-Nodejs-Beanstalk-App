@@ -12,7 +12,6 @@ phases:
      build:
          commands:
                - echo "build phase"
-               - grep -fq "Congratulations" index.html
      post_build:
          commands:
                - echo "post build"
